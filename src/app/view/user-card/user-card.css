@@ -1,0 +1,75 @@
+.user-card hr {
+  border-style: none;
+  border-bottom: solid 1px #d2d2d2;
+  margin: 0 10px 20px 10px;
+}
+
+.user-card-text-container {
+  flex-direction: row;
+  padding: 0 !important;
+}
+
+.user-card-general-info {
+  flex-direction: column;
+  min-width: 10vw;
+  padding: 0 10px;
+}
+
+.user-card-general-info span:first-child:not(:empty) {
+  font-size: 10pt;
+  margin-bottom: 10px;
+}
+
+.user-card-repos-container,
+.user-card-repos,
+.user-card-notes {
+  flex-direction: column;
+}
+
+.user-card-repos-container span,
+.user-card-notes span {
+  margin-bottom: 10px;
+}
+
+.user-card-repos {
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  width: 47vw;
+  height: 48.3vh;
+  overflow-y: scroll;
+}
+
+.user-card-repos::-webkit-scrollbar-track
+{
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  background-color: #F5F5F5;
+}
+
+.user-card-repos::-webkit-scrollbar
+{
+  width: 6px;
+  background-color: #F5F5F5;
+}
+
+.user-card-repos::-webkit-scrollbar-thumb
+{
+  background-color: #9e9e9e;
+}
+
+
+
+.user-card-repos-paging {
+  margin-top: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-card-notes {
+  padding: 0 15px;
+  width: 100%;
+}
+
+.user-card-notes div {
+  margin: 0 10px;
+}

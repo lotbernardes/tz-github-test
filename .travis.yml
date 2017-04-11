@@ -1,0 +1,22 @@
+language: node_js
+node_js:
+  - "7"
+  - "6"
+sudo: false
+cache:
+  directories:
+    - "node_modules"
+script:
+  - npm install
+  - npm run test:coverage
+  - npm run build
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  local_dir: "./build"
+  on:
+    branch: master
+addons:
+    code_climate:
+        repo_token: $CODECLIMATE_TOKEN

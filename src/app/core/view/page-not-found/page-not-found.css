@@ -1,0 +1,24 @@
+.page-not-found {
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100vw;
+  height: inherit;
+  margin: 0 3vw;
+  font-size: 18pt;
+  font-weight: 100;
+}
+
+.page-not-found h1 {
+  font-size: 96pt;
+  margin: 0;
+}
+
+
+.page-not-found span {
+  margin-top: 3vh;
+}
+
+.page-not-found a {
+  margin-top: 5vh;
+}

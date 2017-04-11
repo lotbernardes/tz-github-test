@@ -1,0 +1,13 @@
+.content-area {
+  flex-direction: column;
+}
+
+.content-area-view {
+  flex-direction: row;
+}
+
+.content-area,
+.content-area-view {
+  width: 100%;
+  height: inherit;
+}

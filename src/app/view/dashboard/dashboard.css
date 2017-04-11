@@ -1,0 +1,55 @@
+.dashboard-container {
+  margin: 1vh 3vw;
+}
+
+.dashboard-search-container {
+  margin-top: 40vh;
+  margin-bottom: 3vh;
+  -webkit-transition: margin-top 2s ease-in-out 500ms, -webkit-transform 2s;
+  -moz-transition: margin-top 2s ease-in-out 500ms, -moz-transform 2s;
+  -ms-transition: margin-top 2s ease-in-out 500ms, -ms-transform 2s;
+  -o-transition: margin-top 2s ease-in-out 500ms, -o-transform 2s;
+  transition: margin-top 2s ease-in-out 500ms, transform 2s;
+}
+
+.searching {
+  margin-top: 0;
+  -webkit-transition: margin-top 1s ease-in-out, -webkit-transform 1s;
+  -moz-transition: margin-top 1s ease-in-out, -moz-transform 1s;
+  -ms-transition: margin-top 1s ease-in-out, -ms-transform 1s;
+  -o-transition: margin-top 1s ease-in-out, -o-transform 1s;
+  transition: margin-top 1s ease-in-out, transform 1s;
+}
+
+.dashboard-container,
+.dashboard-result-container,
+.dashboard-result-container > div {
+  flex-direction: column;
+  width: 100%;
+}
+
+.dashboard-result-container img {
+  width: 128px;
+  height: 128px;
+}
+
+.dashboard-result-container {
+  opacity: 0;
+
+  -webkit-transition: opacity 1s ease-in-out 50ms, -webkit-transform 1s;
+  -moz-transition: opacity 1s ease-in-out 50ms, -moz-transform 1s;
+  -ms-transition: opacity 1s ease-in-out 50ms, -ms-transform 1s;
+  -o-transition: opacity 1s ease-in-out 50ms, -o-transform 1s;
+  transition: opacity 1s ease-in-out 50ms, transform 1s;
+}
+
+.display-results {
+  opacity: 1;
+
+  -webkit-transition: opacity 1s ease-in-out 50ms, -webkit-transform 1s;
+  -moz-transition: opacity 1s ease-in-out 50ms, -moz-transform 1s;
+  -ms-transition: opacity 1s ease-in-out 50ms, -ms-transform 1s;
+  -o-transition: opacity 1s ease-in-out 50ms, -o-transform 1s;
+  transition: opacity 1s ease-in-out 50ms, transform 1s;
+}
+

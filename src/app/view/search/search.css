@@ -1,0 +1,13 @@
+.search-bar-container {
+  flex-direction: column;
+  min-width: 500px;
+}
+
+.search-bar-container label {
+  font-weight: 100;
+  font-size: 20pt;
+}
+
+.search-bar-container div {
+  width: 100% !important;
+}
