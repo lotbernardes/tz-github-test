@@ -1,0 +1,32 @@
+.user-repos-list{
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.user-repos-item {
+  flex-direction: column;
+  width: 20vw;
+  min-height: 15vh;
+}
+
+.user-repos-list {
+  height: 100%;
+}
+
+.user-repos-list div:not(first-child):not(last-child) {
+  margin: 4px 5px;
+}
+
+.user-repos-item {
+  padding: 5px;
+}
+
+.user-repos-item a {
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+.user-repos-item span {
+  font-size: 9pt;
+}
+

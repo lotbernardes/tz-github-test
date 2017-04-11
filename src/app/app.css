@@ -1,0 +1,21 @@
+.app-container,
+.content-area-container {
+  flex-direction: column;
+  height: inherit;
+}
+
+.content-area-container {
+  color: #585f69;
+  padding: 15px;
+}
+
+/*COMMON SELECTORS*/
+
+a {
+  color: #585f69;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
